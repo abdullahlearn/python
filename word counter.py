@@ -8,7 +8,7 @@ print(introduction)
 answer=input()
 if answer =="y" or answer =="yes":
     print("ok , let's do this.")
-    sentence=input("")
+    sentence=input("write your sentence:")
     countOfWords = len(sentence.split())
     print("Count of Words in the given Sentence:", countOfWords)
     print("see you next time.......")
