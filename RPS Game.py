@@ -1,3 +1,5 @@
+import random
+
 intro = '''Welcome to the 'Rock Paper Scissors' app!
           In this app, you will choose one of the 
           options: rock, paper, or scissors.
@@ -12,18 +14,17 @@ answer = input()
 
 if answer.lower() == "y" or answer.lower() == "yes":
     print("Okay, let's do this!")
-    rounds=int(input("How many rounds would you like to play???"))
-    import random
-
+    rounds = int(input("How many rounds would you like to play? "))
+    
     def play():
-        word = input("Enter your choice here: ")
+        user_choice = input("Enter your choice (rock/paper/scissors): ").lower()
         rps = ("rock", "paper", "scissors")
-        computer = random.choice(rps)
-        print("Computer's choice:", computer)
+        computer_choice = random.choice(rps)
+        print("Computer's choice:", computer_choice)
         
-        if word == computer:
+        if user_choice == computer_choice:
             print("It's a tie!")
-        elif (word == "rock" and computer == "scissors") or (word == "paper" and computer == "rock") or (word == "scissors" and computer == "paper"):
+        elif (user_choice == "rock" and computer_choice == "scissors") or (user_choice == "paper" and computer_choice == "rock") or (user_choice == "scissors" and computer_choice == "paper"):
             print("You won!")
             return True
         else:
@@ -31,10 +32,8 @@ if answer.lower() == "y" or answer.lower() == "yes":
             return False
 
     rounds_won = 0
-    total_rounds = rounds
-    
 
-    for _ in range(total_rounds):
+    for _ in range(rounds):
         if play():
             rounds_won += 1
         print("---------------")
