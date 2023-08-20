@@ -5,8 +5,7 @@ introduction = '''Welcome to "The Mail Id" App.
                  but in hidden form.'''
 print(introduction)
 # Step 1 - Get input of email id or directly provide example email
-Id = "abdullahmuhammad.one@gmail.com"
-print(Id)
+Id = input("enter your email adress:")
 # Step 2 - Separate user name part from email address
 username, domain= Id.split('@')
 print("this is user name part " + username)
