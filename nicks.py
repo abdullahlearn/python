@@ -7,6 +7,7 @@ import random
 first=input("what is your first name??")
 last=input("what is your last name???")
 print("ok , here's your nickname")
-nick="Tex" , "Rex" , "trotter" , "ace" ,"duke" , "gizmo" , "nardo" , "tello" , "engelo" , "ael"
+nick="Tex" , "Rex" , "trotter" , "ace" ,"duke" , "gizmo" , "nardo" , "tello" , "engelo" , "ael" , 
+"neil" , "jones" ,"yoshi" , "saki" , "rai" , "ash"  
 print(first,random.sample(nick , 1) ,last)
 print("see you next time...........")
