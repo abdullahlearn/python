@@ -1,4 +1,4 @@
-introduction='''Welcome to the 'picture opening' app
+introduction='''Welcome to the 'URL opening' app
               In this app you'll enter a URL of a 
               picture or anything else and then we'll
               open it.'''
