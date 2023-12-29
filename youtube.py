@@ -9,7 +9,7 @@ from pytube import YouTube
 
 try:
     url = input("Enter the YouTube URL: ")
-    
+       
     yt = YouTube(url)
     
     print("Title:", yt.title)
