@@ -1,2 +1,2 @@
 # python
-#learnig python
+i am python programmer
