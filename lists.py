@@ -5,7 +5,7 @@ introduction='''Welcome to the "List Generator"
                  and you have to tell what is missing 
                  or what is added.
                 '''
-print(introduction)
+print(introduction)     
 print("let's do this .")
 import random
 wizard_list = ['spider legs', 'toe of frog', 'eye of newt', 'bat wing', 'slug butter','snake dandruff']
