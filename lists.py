@@ -28,7 +28,7 @@ print('''what is the difference between
     write your  answer with the help of 
     options given below:
     1-some thing added
-    2-some thing deleted
+    2-some thing deleted  
     3-both lists are different
     4-no difference''')
 answer2=input()
