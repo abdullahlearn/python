@@ -1,2 +1,3 @@
 # python
-i am python programmer
+I am a Python programmer
+Learning Linux 
