@@ -1,6 +1,6 @@
 introduction='''hi 
                 welcome to this game.
-                i am  random  dad joke generater.'''
+                i am  random  dad joke generater to make you laugh'''
 print(introduction)
 print('''let's do this
          but first enter a number
@@ -11,7 +11,7 @@ if number >=1 and number <=3:
   if number == 1 :
       print(''' Why don't eggs tell jokes? 
             Because they might crack up!''')
-  else:
+  else: 
       print('''Why did the bicycle fall over? 
             Because it was two-tired!''')
   if number ==2 :
