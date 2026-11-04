@@ -33,7 +33,7 @@ colour_choices = {
     "3": "#00ff00",   # green
     "4": "#fffc00",   # yellow
     "5": "#133337",   # black
-}
+}    
 
 module_color = colour_choices.get(color_choice, color)
 QRcode = pyqrcode.create(URL)
